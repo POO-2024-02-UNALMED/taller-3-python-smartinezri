@@ -38,10 +38,10 @@ class Control:
         if self._tv != None:
             self._tv.volumenDown()
 
-    def setCanal(self):
+    def setCanal(self, canal):
         if self._tv != None:
-            self._tv.setCanal()
+            self._tv.setCanal(canal)
 
-    def setVolumen(self):
+    def setVolumen(self, volumen):
         if self._tv != None:
-            self._tv.setVolumen()
+            self._tv.setVolumen(volumen)
